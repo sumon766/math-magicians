@@ -38,7 +38,6 @@
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
-</details>
 
 <!-- Features -->
 
@@ -61,21 +60,19 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
+
 Example command:
 
 ```sh
- gem install rails
+ npm start
 ```
- -->
+
 
 ### Setup
 
@@ -88,7 +85,6 @@ Example commands:
   cd my-folder
   git clone https://github.com/sumon766/math-magicians.git
 ```
--
 
 ### Install
 
@@ -101,7 +97,6 @@ Example command:
   cd my-project
   npm install
 ```
--
 
 ### Usage
 
@@ -114,6 +109,7 @@ Example command:
   npm run build
 
   npm start
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,8 +128,6 @@ Example command:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **Quote from mathematicians**
 - [ ] **Calculator**
@@ -170,6 +164,6 @@ I would like to thank microverse for teaching me such cool stuffs and help me gr
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/sumon766/math-magicians/blob/development/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
