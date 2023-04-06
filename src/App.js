@@ -4,7 +4,7 @@ import {
 import Header from './components/header';
 import Quote from './components/quote';
 import Display from './components/calculator';
-import Home from './components/home';
+import Home from './components/Home';
 import './App.css';
 
 function App() {
