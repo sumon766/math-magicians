@@ -1,3 +1,6 @@
+import {
+  BrowserRouter, Routes, Route, Outlet,
+} from 'react-router-dom';
 import Header from './components/header';
 import Home from './components/Home';
 import Display from './components/Calculator';
@@ -6,12 +9,15 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Header />
-      <Home />
-      <Display />
-      <Quote />
-    </div>
+      <Outlet />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="calculator" element={<Display />} />
+        <Route path="quote" element={<Quote />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

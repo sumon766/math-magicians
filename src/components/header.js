@@ -1,13 +1,15 @@
+import { Link } from 'react-router-dom';
+
 const Header = () => (
   <div className="header">
     <div className="app-name">
-      <h1>Math Magician</h1>
+      <h1><Link to="/">Math Magician</Link></h1>
     </div>
     <div className="menu">
       <ul>
-        <li className="menu-item"><a href="#">Home</a></li>
-        <li className="menu-item"><a href="#">Calculator</a></li>
-        <li className="menu-item"><a href= "#">Quote</a></li>
+        <li className="menu-item"><Link to="/">Home</Link></li>
+        <li className="menu-item"><Link to="/calculator">Calculator</Link></li>
+        <li className="menu-item"><Link to="/quote">Quote</Link></li>
       </ul>
     </div>
   </div>
