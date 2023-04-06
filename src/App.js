@@ -3,8 +3,8 @@ import {
 } from 'react-router-dom';
 import Header from './components/header';
 import Home from './components/Home';
-import Display from './components/Calculator';
-import Quote from './components/Quote';
+import Display from './components/Calculator.js';
+import Quote from './components/Quote.js';
 import './App.css';
 
 function App() {
