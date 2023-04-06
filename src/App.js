@@ -2,9 +2,9 @@ import {
   BrowserRouter, Routes, Route, Outlet,
 } from 'react-router-dom';
 import Header from './components/header';
-import Home from './components/Home';
-import Display from './components/Calculator';
 import Quote from './components/quote';
+import Display from './components/calculator';
+import Home from './components/home';
 import './App.css';
 
 function App() {
