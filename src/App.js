@@ -1,13 +1,23 @@
-import Display from './components/calculator';
+import {
+  BrowserRouter, Routes, Route, Outlet,
+} from 'react-router-dom';
+import Header from './components/header';
 import Quote from './components/quote';
+import Display from './components/calculator';
+import Home from './components/Home';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Display />
-      <Quote />
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Outlet />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="calculator" element={<Display />} />
+        <Route path="quote" element={<Quote />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

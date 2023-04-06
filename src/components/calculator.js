@@ -45,6 +45,9 @@ const Calculator = () => {
 
 const Display = () => (
   <div className="calculator">
+    <div className="text">
+      <h2>Let&apos;s do some math...</h2>
+    </div>
     <Calculator />
   </div>
 );
