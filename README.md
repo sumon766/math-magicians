@@ -26,7 +26,7 @@
 
 # 📖 Match Magicians <a name="about-project"></a>
 
-**Math Magicians** is an SPA built with react and it has the ability to calculate all general functions.
+**Math Magicians** is an SPA built with react and it has the ability to calculate all general mathematical functions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,7 +52,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://sumon766.github.io/)
+- [Live Demo Link](https://sumon766.github.io/math-magicians)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
